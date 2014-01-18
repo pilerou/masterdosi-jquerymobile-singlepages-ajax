@@ -2,6 +2,8 @@ Cet exercice vise à réaliser l'architecture suivante :
 ![Cinématique d'écrans](/schema_architecture.PNG)
 
 Un projet de base est fourni et présente des commentaires avec des TODO précisant les améliorations à apporter.
+
+Ce projet rentre dans le cadre de le cadre du cours sur les solutions mobiles du Master DOSI de l'Université de Bretagne Occidentale.
  
 Pré-requis
 ----------------
