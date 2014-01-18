@@ -4,6 +4,7 @@ Cet exercice vise à réaliser l'architecture suivante :
 Un projet de base est fourni et présente des commentaires avec des TODO précisant les améliorations à apporter.
 
 Ce projet rentre dans le cadre de le cadre du cours sur les solutions mobiles du Master DOSI de l'Université de Bretagne Occidentale.
+http://prezi.com/ux1fqq1i8xgf/mobile-enjeux-solutions/
  
 Pré-requis
 ----------------
