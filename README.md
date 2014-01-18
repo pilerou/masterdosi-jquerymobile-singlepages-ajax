@@ -1,5 +1,5 @@
 Cet exercice vise à réaliser l'architecture suivante :
-![Cinématique d'écrans](/https://raw.github.com/pilerou/masterdosi-jquerymobile-singlepages-ajax/master/schema_architecture.PNG)
+![Cinématique d'écrans](/schema_architecture.PNG)
 
 Un projet de base est fourni et présente des commentaires avec des TODO précisant les améliorations à apporter.
  
