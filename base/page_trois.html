@@ -4,12 +4,12 @@
     <title>Page 3</title>
     <meta name="viewport"
     content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet"
-    href="lib/jqm/jquery.mobile-1.4.0.min.css" />
-    <script src="lib/jquery-2.0.3.min.js">
-    </script>
-    <script src="lib/jqm/jquery.mobile-1.4.0.min.js">
-    </script>
+      <link rel="stylesheet"
+            href="bower_components/jquery-mobile-bower/css/jquery.mobile-1.4.2.min.css" />
+      <script src="bower_components/jquery/dist/jquery.min.js">
+      </script>
+      <script src="bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.2.min.js">
+      </script>
   </head>
   <body>
     <div data-role="page" id="page_trois">
@@ -20,7 +20,7 @@
         <p>Nous sommes sur la troisi&#232;me page.</p>
 		<p id="hello">
 		<!--
-			Cette zone sera alimentée automatiquement par un script Javascript exécuté avant l'affichage de la page
+			Cette zone sera alimentï¿½e automatiquement par un script Javascript exï¿½cutï¿½ avant l'affichage de la page
 		--></p>
         <p>
           <a href="javascript:history.back()" data-direction="reverse">Retour &#224; l'accueil</a>
@@ -33,16 +33,16 @@
 		$( "#page_trois" ).on( "pagebeforeshow", function( event ) { 
 		
 			/*
- 			  Cette fonction sera appelée à chaque fois que la page sera sur le point d'être affichée
+ 			  Cette fonction sera appelï¿½e ï¿½ chaque fois que la page sera sur le point d'ï¿½tre affichï¿½e
 			  TODO Etape 3
-			  Appeler le serveur http://127.0.0.1:3000/ en passant le paramètre de requête 
-			  nom alimenté par la valeur sessionStorage.nom (cf l'attribut onclick sur la page accueil.html
+			  Appeler le serveur http://127.0.0.1:3000/ en passant le paramï¿½tre de requï¿½te 
+			  nom alimentï¿½ par la valeur sessionStorage.nom (cf l'attribut onclick sur la page accueil.html
 			  Pour effectuer l'appel utiliser la fonction jquery getJSON http://api.jquery.com/jquery.getjson/
 			  
 			  Le service retourne un flux {result : 'hello '}.
 			  Il convient donc de modifier le contenu dont l'id est hello en saisissant le contenu de la variable result.
-			  Pour cela il s'agira de trouver l'élément dom dont l'id est hello (utiliser les selectors de Jquery http://api.jquery.com/id-selector/
-			  et de mettre à jour le contenu à l'aide de la fonction http://api.jquery.com/text/#text2
+			  Pour cela il s'agira de trouver l'ï¿½lï¿½ment dom dont l'id est hello (utiliser les selectors de Jquery http://api.jquery.com/id-selector/
+			  et de mettre ï¿½ jour le contenu ï¿½ l'aide de la fonction http://api.jquery.com/text/#text2
 			*/
 			
 		});

@@ -1,0 +1,20 @@
+{
+  "name": "masterdosi-jquerymobile-singlepages-ajax",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pilerou/masterdosi-jquerymobile-singlepages-ajax",
+  "authors": [
+    "pilerou <pilerou@gmail.com>"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jquery-mobile-bower": "~1.4.2"
+  }
+}
