@@ -22,6 +22,10 @@ Vous disposerez alors de la possibilité de lancer un serveur http en prenant po
 Le service et sa procédure d'installation sont disponibles ici :
 https://github.com/pilerou/masterdosi-helloworld-nodejs
 
+### Avoir installé Bower sur le poste local
+L'installation se fait à l'aide de *NPM* : [http://bower.io/#install-bower](http://bower.io/#install-bower)
+`npm install -g bower`
+
 Installation des sources
 ----------------
 Téléchargez le projet en local et dézippez-le [Zip du projet](https://github.com/pilerou/masterdosi-jquerymobile-singlepages-ajax/archive/master.zip)
@@ -30,6 +34,7 @@ Votre répertoire de travail est le répertoire `base`
 
 Ouvrez une console et tapez 
 `cd [chemin]/base` où chemin est le chemin dans lequel vous avez dézippé le projet
+`bower install` afin de télécharger les dépendances du projet : jquery et jquery_mobile
 `http-server`
 
 Votre serveur tourne normalement sur le port 8080 :
